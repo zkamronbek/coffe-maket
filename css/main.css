@@ -398,13 +398,23 @@ table td {
   padding: 0;
   margin: 0;
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .nav__header {
   margin-left: auto;
 }
 
+.nav__footer {
+  margin-left: auto;
+}
+
 .nav__list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-right: 32px;
   font-family: Barlow;
   font-style: normal;
@@ -547,6 +557,22 @@ table td {
   color: #333D4B;
 }
 
+.area__container {
+  padding: 100px 85px;
+  text-align: center;
+  position: relative;
+}
+
+.area__container::before {
+  position: absolute;
+  width: 100%;
+  range: 0;
+  left: 0;
+  background-color: #2C343E;
+  border-radius: 10px;
+  content: "";
+}
+
 .area__container-title {
   font-family: Fraunces 9pt;
   font-style: normal;
@@ -583,5 +609,15 @@ table td {
 
 .area__content-item:last-child {
   margin: 0;
+}
+
+.chunk__content-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: aqua;
 }
 /*# sourceMappingURL=main.css.map */
