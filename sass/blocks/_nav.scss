@@ -1,0 +1,33 @@
+.nav__list {
+    @include reset-list;
+   display: flex;
+}
+.nav__header{
+    margin-left: auto;
+}
+.nav__footer{
+    margin-left: auto;
+}
+.nav__list-item
+{
+    display: flex;
+    margin-right: 32px;
+    font-family: Barlow;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #83888F;
+  & :hover{
+        color: #333D4B;
+    }
+}
+.nav__list-item:last-child{
+    margin-right: 0;
+}
+.nav__list-link {
+    color: #83888F;
+    text-decoration: none;
+  
+ }

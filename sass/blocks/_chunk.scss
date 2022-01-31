@@ -1,0 +1,5 @@
+.chunk__content-list{
+    @include reset-list;
+    display: flex;
+    background-color: aqua;
+}

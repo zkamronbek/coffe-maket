@@ -1,0 +1,26 @@
+
+@mixin reset-list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+}
+@mixin hidden{
+    .visually-hidden {
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+      }
+}
+@mixin section-bg{
+    position: absolute;
+width: 100%;
+range: 0;
+left: 0;
+background-color: #2C343E;
+border-radius: 10px;
+}
