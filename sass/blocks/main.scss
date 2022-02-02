@@ -1,4 +1,12 @@
+
+*,
+::before,
+::after{
+    box-sizing: border-box;
+    
+}
 @import "blocks";
+
 
 
 

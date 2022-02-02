@@ -1,5 +1,6 @@
 .intro__content{
-    display: block;
+   
+   display: block;
     padding-top: 116px;
 padding-bottom: 117px;
 padding-left: 85px;
@@ -15,7 +16,7 @@ border-radius: 8px;
 .intro__content-title {
     margin: 0;
     padding: 0;
-    font-family: "Fraunces";
+    font-family: 'Fraunces',Arial,sans-serif;
 font-style: normal;
 font-weight: 900;
 font-size: 72px;
@@ -37,15 +38,16 @@ mix-blend-mode: normal;
 opacity: 0.8;
 }
 .link__ourplan{
-    font-family: Fraunces;
-font-style: normal;
+    display: block;
+    font-family: 'Fraunces'Arial,  sans-serif;
 font-weight: 900;
 font-size: 18px;
 line-height: 25px;
 color: #FEFCF7;
     margin-top: 56px;
+    margin: bottom 116px; 
     position: absolute;
-background: #0E8784;
+background-color: #0E8784;
 border-radius:6px;
 text-decoration: none;
 padding: 15px 32px;

@@ -1,17 +1,16 @@
 .area__container{
+    position: absolute;
     padding: 100px 85px;
     text-align: center;
     position: relative;
-    &::before{
-       @include section-bg;
-    content: ""; 
-    }
+    
    
     }
     
 
 .area__container-title{
-    font-family: Fraunces 9pt;
+    margin: 0;
+    font-family: 'Fraunces';
     font-style: normal;
     font-weight: 900;
     font-size: 40px;
@@ -20,16 +19,26 @@
     color: #FEFCF7;
     
 }
-.area__cold {
+.area__coold {
+   z-index: -1;
     text-align: center;
+   display: block;
+   padding:100px 317px;
+    
+   
+    @include section-bg;
+    position: relative;
+     
 }
 .area__content-list{
     @include reset-list;
     display: flex;
     justify-content:center;
+    margin: 0;
    
 }
 .area__content-item{
+    margin: 0;
     padding: 72px 48px 48px;
     border-radius: 8px;
     margin-right: 30px;
@@ -40,3 +49,43 @@
         margin: 0;
     }
 }
+.area__container-text{
+    margin: 0;
+    margin-bottom:86px ;
+    margin-top: 32px;
+    font-family: 'Barlow',serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    z-index: -1;
+    
+    
+    color: #FEFCF7;
+    
+   
+}
+.area__content-item--quality ::before{
+   
+    background-image: url("../img/coffe.svg");
+    background-repeat: no-repeat;
+    background-position: center center; 
+    content: '';
+
+}
+.area__content-item--benefits::before{
+   
+    background-image: url("../img/qutti.svg");
+    background-repeat: no-repeat;
+    background-position: center center; 
+    content: '';
+
+}
+.area__content-item--shipping ::before{
+   position: relative;
+    background-image: url("../img/dastavka.svg");
+    background-repeat: no-repeat;
+    background-position: center center; 
+    content: '';
+
+}
+
